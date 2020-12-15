@@ -83,6 +83,9 @@
 				<button class="tablinks" onclick="openProject(event, 'project5')">
 					project 5 (React-verkkokauppa)
 				</button>
+				<button class="tablinks" onclick="openProject(event, 'project6')">
+					project 6 (Image Carousel)
+				</button>
 				<div id="project1" class="tabcontent">
 					<h2>Stopwatch</h2>
 					<ol>
@@ -173,12 +176,28 @@
 							<option value="red">Red</option>
 							<option value="blue">Blue</option>
 						</datalist>
-						<button class="w3-btn" type="button" onclick="cs.submit()">
+						<button class="w3-btn" type="button" onclick="cs.submit()"> Submit color! </button>
 					</form>
 				</div>
 				<div id="project5" class="tabcontent">
 					<h2>react-verkkokauppa prokkis</h2>
 					<a href=" http://127.0.0.1:5001/react-verkkokauppa/build/index.html">prokkikseen</a>
+				</div>
+				<div id="project6" class="tabcontent">
+					<h2>Image carousel</h2>
+					<div class="carousel-container">
+						<i class="fas fa-arrow-left" id="prevBtn"></i>
+						<i class="fas fa-arrow-right" id="nextBtn"></i>
+						<div class="carousel-slide">
+							<img src="./gallery/(7).jpg" alt="" id="lastClone">
+							<img src="./gallery/(3).jpg" alt="">
+							<img src="./gallery/(1).jpg" alt="">
+							<img src="./gallery/(5).jpg" alt="">
+							<img src="./gallery/(6).jpg" alt="">
+							<img src="./gallery/(7).jpg" alt="">
+							<img src="./gallery/(3).jpg" alt="" id="firstClone">
+						</div>
+					</div>
 				</div>
 			</div>
 			<div class="socialmedia" id="socialmedia">
